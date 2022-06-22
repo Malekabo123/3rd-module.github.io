@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    color: #eaebed;
+    background-color: #243b67;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*Header*/
+#header-nav{
+    background-color: #c27dfc;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header h1.text-left{
+    margin-bottom: 20px;
+    color: #334f64;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #334f64;
+    text-align: center;
+}
+
+#nav-list a:hover{ /*when the mouse touch it change the color*/
+    background: rgb(120 45 45 / 10%);
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: rgb(120 45 45 / 10%);
+}
+
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+    border: 1px solid #fff;
+}
+/*End header*/
+
+/*Main content*/
+#menu-tile,#specials-tile,#map-tile{
+    width:100%;
+    padding: 10px;
+    margin-bottom:15px;
+    background-color: #6e5dcf;
+    position:relative;
+    border:2px solid#3F0C1F;
+}
+
+.row h3{
+    margin-bottom: 15px;
+}
+
+.row a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #202c35;
+}
+
+.row a:hover{
+    text-shadow: 1px 0.5px 0.5px #222;
+}
+/*End Main content*/
+
+/*Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+/*End Medium devices*/
+
+/*Small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+/*End Small devices*/
+
+/*Extra small devices*/
+@media (max-width: 767px){
+    .navbar-header h1.text-left{
+        padding: 15px 15px;
+    }
+
+    #collapsable-nav a{
+        font-size: 1.8em;
+        margin-bottom: 8px;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+/*End Extra small devices*/
