@@ -15,6 +15,7 @@ body{
 .navbar-header h1.text-left{
     margin-bottom: 20px;
     color: #334f64;
+    font-size: 2em;
 }
 
 .navbar-header button.navbar-toggle{
